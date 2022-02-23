@@ -58,6 +58,7 @@ nav{
 }
 #menu ul li a{
     color: gray;
+    text-decoration: none;
     
 }
 #menu ul li a:hover{
@@ -367,6 +368,194 @@ nav{
     }
 
 /* End of View Products */
+
+/* Start of about.html style */
+
+#company_fashion{
+    width: 100%;
+    height: 510px;
+    background: #f0f8ff;
+
+}
+
+#com_img{
+    width: 53%;
+    height: 100%;
+    float: right;
+}
+#com_img img{
+    width: 100%;
+    height: 100%;
+}
+#com_text{
+    width: 47%;
+    height: 100%;
+    float: right;
+}
+#com_text h1{
+    font-size: 55pt;
+    text-align: center;
+    font-family: initial;
+    padding-top: 120px;
+}
+/* Start of Our Team Section */
+
+/* End of Our Team Section */
+#our_team{
+    width: 100%;
+    height: 530px;
+    background: rgb(204, 203, 203);
+}
+#team{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+#team ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80%;
+}
+#team ul li{
+    list-style-type: none;
+    width: 32%;
+    height: 40%;
+    background: #fff;
+    float: left;
+    margin-left: 22px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+#team ul li:first-child{
+    margin-left: 0;
+}
+#team h1{
+    margin: 0;
+    font-family: system ui;
+    font-size: 4vw;
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+#team ul li .team_img{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#team ul li span img{
+    width: 80%;
+    height: 50%;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.team_name{
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding-left: 25px;
+}
+.team_name h2{
+    margin: 50px 0px 0px 0px;
+}
+.team_name p{
+    margin: 0;
+    font-weight: bold;
+    color: gray;
+}
+
+.team_add{
+    width:15%;
+    height: 30%;
+    float: left;
+    background: silver;
+    margin-top: 60px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+.team_add a{
+    text-decoration: none;
+    width: 38%;
+    height: 38%;
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 14px;
+    
+}
+/* End of about.html sytle */
+/* Start of Message Section */
+#message{
+    width: 100%;
+    height: 750px;
+    background: #fff;
+}
+#message_title{
+    height: 32%;
+}
+#message_title p{
+    margin: 0px 0px 0px 0px;
+    font-size: 3vw;
+    font-family: fantasy;
+    padding: 120px 0px 0px 500px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+
+}
+
+#message_text{
+    height: 68%;
+}
+#m_text{
+    width: 65%;
+    height: 68%;
+    border: 2px solid #000;
+    margin: auto;
+}
+#m_span1{
+    width: 70%;
+    height: 45%;
+    margin: auto;
+    display: block;
+    font-size: 2vw;
+    overflow: hidden;
+    color: gray;
+    padding-top: 70px;
+    line-height: 40px;
+}
+#m_img{
+    width:60px;
+    height: 60px;
+    display: inline-block;
+    margin-left: 125px;
+}
+#m_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+}
+#m_img_title{
+    display: inline-block;
+    position: absolute;
+    line-height: 65px;
+    padding-left: 15px;
+}
+/* End of Message Section */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 
 /* Start of footer */
 footer{
